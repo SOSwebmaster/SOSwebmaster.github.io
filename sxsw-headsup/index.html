@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SXSW x Backpack Interactive</title>
+</head>
+
+<body>
+	<img name="slideImg" src="27.jpg" width="500" height="375" border="0" alt="images">
+	<a href="#" onClick="switchImage('slideImg')">play slide show</a>
+	<a href="#" onClick="clearTimeout(timerID)"> pause</a>
+	<a href="#" onClick="prevImage('slideImg'); clearTimeout(timerID)"> previous</a>
+	<a href="#" onClick="switchImage('slideImg'); clearTimeout(timerID)">next </a>
+	
+	<!-- to autostart <body onLoad="switchImage('slideImg')"> -->
+	
+<script src="index.js"></script>
+</body>
+	
+</html>
